@@ -57,13 +57,14 @@ The full dataset is available here: [Simulation Data](Simulation%20Data/).
 
 ## Usage
 
-The Python code to execute the Random Forest regression model can be found in the `code` folder. You can run the model with the following steps:
+The primary Python script for running the model is `Main2.py`. Here’s how to use it:
 
-1. Import the module: `from code.predict import predict_geometry`
+1. **Data Preparation**: Ensure that the simulation data is available in the correct directory.
+2. **Run the script**: Execute the following command to run the main Python file:
+   
+   `python3 Code/Main2.py`
 
-2. Load data and predict geometry: `predicted_geometry = predict_geometry("Simulation Data/input_data.csv")`
-
-Make sure the `Simulation Data` folder is in the correct directory for the code to access the input data.
+3. **Example**: You can modify the script or use the existing pipeline for feature analysis, model training, and predictions.
 
 ## Results
 
