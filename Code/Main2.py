@@ -8,8 +8,9 @@ print("\033[94mData Preparation (Machine Data)\033[0m")
 from Data_Preparation import process_simulations
 
 # Define your parameters
-base_directory = r"/Users/alirezayazdani/Library/Mobile Documents/com~apple~CloudDocs/Uni Siegen/University Semester 4/Master Thessis/Simulations/202310_Simulationsstudie"
-output_directory = r"/Users/alirezayazdani/Library/Mobile Documents/com~apple~CloudDocs/Uni Siegen/University Semester 4/Master Thessis/Simulations/Data visualization New"
+base_directory = Path(__file__).resolve().parent.parent / 'Simulation Data'
+output_directory = Path(__file__).resolve().parent.parent / 'output'
+output_directory.mkdir(parents=True, exist_ok=True)
 sim_start = 1  # Starting simulation number
 sim_end = 162  # Ending simulation number 162
 print_option = 'nprint'  # Set to 'print' to export the DataFrame to CSV, or 'nprint' to not export
