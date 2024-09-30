@@ -10,15 +10,15 @@ This repository provides a machine learning-based approach to predict the geomet
 
 ## Table of Contents
 
-1. Introduction
-2. Features
-3. Installation
-4. Data
-5. Usage
-6. Results
-7. Graphs and Visualizations
-8. Contributing
-9. License
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Data](#data)
+5. [Usage](#usage)
+6. [Results](#results)
+7. [Graphs and Visualizations](#graphs-and-visualizations)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## Introduction
 
