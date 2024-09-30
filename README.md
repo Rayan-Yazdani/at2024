@@ -50,7 +50,11 @@ To install and run the project, follow the steps below:
 The simulation data used for this project is stored in the `Simulation Data` folder. It includes the following:
 
 - **Forces and Movements**: Time-series data on the forces and movements of tools during the bending process.
+  <img width="501" alt="Picture1" src="https://github.com/user-attachments/assets/77b1a681-b8a6-4ea8-a3ec-9b2ffbb5ddae">
+
 - **Geometries**: Tube geometry data both before and after springback, including secondary and main axes, out-of-roundness, and collapse.
+  ![IMG_0666](https://github.com/user-attachments/assets/19c4bb4e-4e33-4eda-a72c-d16b7a011806)
+
 - **Process Parameters**: Important parameters such as tube diameter, wall thickness, mandrel retraction timing, collet boost, and pressure die clearance.
 
 The full dataset is available here: [Simulation Data](Simulation%20Data/).
