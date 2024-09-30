@@ -68,7 +68,14 @@ The primary Python script for running the model is `Main2.py`. Here’s how to u
    
    `python3 Code/Main2.py`
 
-3. **Example**: You can modify the script or use the existing pipeline for feature analysis, model training, and predictions.
+3. **Window Selection**: You can select one of the windows
+   - Type 1: Middle Small
+   - Type 2: Middle Large
+   - Type 3: Middle Extra Large
+   - Type 4: Before
+   - Type 5: After
+  
+4. **Model Training**: 
 
 ## Results
 
