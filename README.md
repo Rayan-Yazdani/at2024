@@ -35,8 +35,8 @@ Rotary draw bending (RDB) is a key technique used to shape thin-walled tubes, bu
 
 To install and run the project, follow the steps below:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`  
-   Then, navigate to the project folder: `cd your-repository`
+1. Clone the repository: `git clone https://github.com/Rayan-Yazdani/at2024.git`  
+   Then, navigate to the project folder: `cd at2024`
 
 2. Create a virtual environment: `python -m venv venv`  
    Activate the virtual environment: `source venv/bin/activate`  
