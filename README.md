@@ -20,7 +20,10 @@ This repository provides a machine learning-based approach to predict the geomet
 
 ## Introduction
 
-Rotary draw bending (RDB) is a key technique used to shape thin-walled tubes, but accurately predicting the resulting geometry can be complex. This project explores the use of Random Forest regression models to predict geometrical outcomes, providing insights that can improve the design and optimization of the tools used in the bending process.
+Rotary draw bending (RDB) is a key technique used to shape thin-walled tubes, but accurately predicting the resulting geometry can be complex. This project explores the use of Random Forest regression models to predict geometrical outcomes, providing insights that can improve the design and optimization of the tools used in the bending process. Below, is the cross section image of a tube bending machine
+
+![IMG_5ADD3E36BDE5-1](https://github.com/user-attachments/assets/3c2a7ddd-b378-4602-ac1d-36ac7af87a9f)
+
 
 ## Features
 
