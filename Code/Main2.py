@@ -2,6 +2,8 @@
 # Data Preparation (Machine Data)
 # This will save each simulation data in a single dataframe
 # =========================================================
+import os
+from pathlib import Path
 print()
 print("\033[94mData Preparation (Machine Data)\033[0m")
 # Import the process_simulations function from Data_Preparation module
