@@ -17,8 +17,6 @@ This repository provides a machine learning-based approach to predict the geomet
 5. [Usage](#usage)
 6. [Results](#results)
 7. [Graphs and Visualizations](#graphs-and-visualizations)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
@@ -96,15 +94,4 @@ Here’s where you can include these images in the README:
 
 (*Remember to generate and save these graphs in the `images` folder.*)
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
