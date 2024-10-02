@@ -75,7 +75,13 @@ The primary Python script for running the model is `Main2.py`. Here’s how to u
    - Type 4: Before
    - Type 5: After
   
-4. **Model Training**: 
+4. **Feature Correlation**: The correlation of the features will be shown based on the selected window
+
+5. **Model Training**: Based on the selected window a model will be trained but before that we should select the target and the number of folds for cross validation (usually 5), next, the MSE for predicting that target would be generated.
+
+6. **Training on Some Simulations And testing on others**: the next part of the code is designed if we want to train and test on some specific simulations instead of all 162 together
+
+7. **Feature Importance Analysis**: the next part of the code is for feature importance. basically select a target data and it would generate the importance of all features affecting that predicting target.
 
 ## Results
 
