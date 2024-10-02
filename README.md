@@ -87,32 +87,4 @@ The primary Python script for running the model is `Main2.py`. Here’s how to u
 
 The Random Forest model successfully predicts tube geometries with RMS errors under 0.19 mm for a tube diameter of 22 mm. The model identified the timing of mandrel retraction and collet boost as the most critical factors in achieving accurate predictions.
 
-## Graphs and Visualizations
-
-To better illustrate the results, you can include visualizations generated from the model's predictions:
-
-- **Prediction vs Actual Geometry**: A comparison between the predicted and actual geometries before and after springback.
-- **Feature Importance Chart**: A bar chart showing which process parameters had the highest impact on prediction accuracy.
-
-You can create these graphs using matplotlib or another plotting library, and save them in an `images` folder.
-
-Example code to generate and save the graph:
-
-import matplotlib.pyplot as plt
-
-# Example: Generate and save a feature importance plot
-plt.bar(feature_names, feature_importances)
-plt.title("Feature Importance")
-plt.savefig("images/feature_importance.png")
-
-Here’s where you can include these images in the README:
-
-![Prediction vs Actual Geometry](images/prediction_vs_actual.png)  
-*Figure 1: Comparison of predicted vs actual geometry.*
-
-![Feature Importance](images/feature_importance.png)  
-*Figure 2: Process parameters ranked by importance.*
-
-(*Remember to generate and save these graphs in the `images` folder.*)
-
 
