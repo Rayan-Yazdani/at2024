@@ -16,7 +16,6 @@ This repository provides a machine learning-based approach to predict the geomet
 4. [Data](#data)
 5. [Usage](#usage)
 6. [Results](#results)
-7. [Graphs and Visualizations](#graphs-and-visualizations)
 
 ## Introduction
 
