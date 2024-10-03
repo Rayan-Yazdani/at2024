@@ -285,31 +285,37 @@ while True:
 # Feature importance analysis
 # ===========================
 print("\033[94mFeature Importance Analysis\033[0m")
-from Feature_Importance import analyze_feature_importance, analyze_specific_features, visualize_feature_importance
+from Feature_Importance import analyze_feature_importance, TARGET_OPTIONS, analyze_specific_features, visualize_feature_importance
 
 
 # Print options for the user
-print("Select a target option:")
-for key, value in TARGET_OPTIONS.items():
-    # Differentiate display based on before or after springback
-    description = "before springback" if key <= 4 else "after springback"
-    print(f"{key}: {description} {value}")
+#print("Select a target option:")
+#for key, value in TARGET_OPTIONS.items():
+#    # Differentiate display based on before or after springback
+#    description = "before springback" if key <= 4 else "after springback"
+#    print(f"{key}: {description} {value}")
 
 # User selects the target option and number of folds
-target_option = int(input("Enter your choice (1-8): "))
-n_folds = int(input("Enter the number of folds for cross-validation: "))
+#target_option = int(input("Enter your choice (1-8): "))
+#n_folds = int(input("Enter the number of folds for cross-validation: "))
 
 # Call the function and handle potential errors
-try:
-    avg_mse = analyze_feature_importance(concatenated_before, concatenated_after, target_option, n_folds)
-    print(f"The average Mean Squared Error across {n_folds} folds is: {avg_mse}")
-    if plot_request:
-        print(f"Random Forest tree saved to: {output_directory}")
-except ValueError as e:
-    print(e)
+#try:
+#    avg_mse = analyze_feature_importance(concatenated_before, concatenated_after, target_option, n_folds)
+#    print(f"The average Mean Squared Error across {n_folds} folds is: {avg_mse}")
+#    if plot_request:
+#        print(f"Random Forest tree saved to: {output_directory}")
+#except ValueError as e:
+#    print(e)
 # specific_feature_importances = analyze_specific_features(df)
-# visualize_feature_importance(concatenated_before)
-# visualize_feature_importance(concatenated_after)
+print("Features for Before Springback:")
+visualize_feature_importance(concatenated_before)
+print("Features for After Springback:")
+visualize_feature_importance(concatenated_after)
+print("Setup Features for Before Springback:")
+analyze_specific_features(concatenated_before)
+print("Setup Features for After Springback:")
+analyze_specific_features(concatenated_after)
 
 
 
