@@ -52,6 +52,7 @@ from sklearn.ensemble import RandomForestRegressor
 import numpy as np
 
 # Define the mapping of simple keys to actual column names
+"""
 TARGET_OPTIONS = {
     1: 'before_springback_Secondary axis[mm]',
     2: 'before_springback_Main axis[mm]',
@@ -62,14 +63,14 @@ TARGET_OPTIONS = {
     7: 'after_springback_Out-of-roundness[-]',
     8: 'after_springback_Collapse[mm]'
 }
-
+"""
 # List of specific input features to analyze
 specific_features = [
-    'Diameter tube [mm]',
-    'Wallthickness tube [mm]',
-    'Mandrel extraction before bending end []',
-    'Collet boost [-]',
-    'Clearance pressure die [mm]'
+    'Diameter tube [mm]_min',
+    'Wallthickness tube [mm]_min',
+    'Mandrel extraction before bending end []_min',
+    'Collet boost [-]_min',
+    'Clearance pressure die [mm]_min'
 ]
 
 def analyze_specific_features(df):
@@ -119,6 +120,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Define the mapping of simple keys to actual column names
+"""
 TARGET_OPTIONS = {
     1: 'before_springback_Secondary axis[mm]',
     2: 'before_springback_Main axis[mm]',
@@ -129,7 +131,7 @@ TARGET_OPTIONS = {
     7: 'after_springback_Out-of-roundness[-]',
     8: 'after_springback_Collapse[mm]'
 }
-
+"""
 def analyze_all_features(df):
     feature_importances_summary = pd.DataFrame()
 
